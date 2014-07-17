@@ -1,15 +1,5 @@
 # Geo File Entity
 
-An entity to hold files containing geographic data.
+![](https://raw.githubusercontent.com/wiki/NuCivic/geo_file_entity/images/nga_states.png)
 
-```bash
-drush -y en geo_file_entity
-```
-
-## Geojson bundle
-
-A bundle for the geo_file_entity to add the ability upload geojson files.
-
-```bash
-drush -y en geo_file_entity_geojson_bundle
-```
+Please see [the wiki](https://github.com/NuCivic/geo_file_entity/wiki) for documentation.
