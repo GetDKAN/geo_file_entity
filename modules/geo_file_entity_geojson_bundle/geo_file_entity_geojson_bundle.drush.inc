@@ -23,9 +23,12 @@ function geo_file_entity_geojson_bundle_drush_command() {
 function geo_File_entity_geojson_bundle_drush_help($command) {
   switch ($command) {
     case 'preload-geojson':
+
     case 'pre-geo':
+
       return dt('Preload Commonly used geojson files eg: USA States');
-      break;
+
+    break;
   }
 }
 /**
@@ -66,5 +69,5 @@ function drush_geo_file_entity_geojson_bundle_preload_geojson() {
     );
     $usa_states = entity_create('geo_file', $usa_states);
     $usa_states->save();
-  } 
+  }
 }
