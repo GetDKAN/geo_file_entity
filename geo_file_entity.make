@@ -12,4 +12,4 @@ projects[eck][subdir] = contrib
 
 ; Libraries
 libraries[leaflet_zoomtogeometries][download][type] = "file"
-libraries[leaflet_zoomtogeometries][download][url] = "https://github.com/NuCivic/leaflet.map.zoomToGeometries.js/archive/master.zip"
+libraries[leaflet_zoomtogeometries][download][url] = "https://github.com/NuCivic/leaflet.map.zoomToGeometries.js/zipball/master"
