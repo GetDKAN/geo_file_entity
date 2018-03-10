@@ -1,0 +1,29 @@
+{
+    "name": "getdkan/geo_file_entity",
+    "description": "A Drupal entity to hold files with Geodata",
+    "version": "1.x-dev",
+    "type": "drupal-module",
+    "require": {
+        "composer/installers": "~1.0",
+        "drupal/features": "2.6",
+        "drupal/eck": "2.0-rc9",
+        "bower-asset/leaflet-map-zoomToGeometries": "dev-no-bower-dependencies",
+        "fxp/composer-asset-plugin": "^1.4"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    },
+    "config": {
+        "fxp-asset": {
+            "repositories": {
+                "bower-asset/leaflet-map-zoomToGeometries": {
+                    "type": "bower-vcs",
+                    "url": "https://github.com/GetDKAN/leaflet.map.zoomToGeometries.js.git"
+                }
+            }
+        }
+    }
+}
